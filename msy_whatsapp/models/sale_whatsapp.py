@@ -6,6 +6,7 @@ import urllib.parse as parse
 
 
 class SendMessage(models.Model):
+
     _name = 'msy.whatsapp'
     _description = 'MSY WHATSAPP SYSTEM'
 
@@ -50,3 +51,28 @@ class SendMessage(models.Model):
                 'res_id': self.id,
             }
             return send_msg
+
+    def send_direct_message(self):
+        record_phone = self.mobile_number
+        if record_phone:
+            prods = ""
+            for rec in self:
+                for id in rec.sale.order_line:
+                    prods = prods + "*" + str(id.product_id.name) + " : " + str(id.product_uom_qty) + "* \n"
+
+            custom_msg = "Hello *{}*, your Sale Order *{}* with amount *{} {}* is ready. \nYour order contains following items: \n{}"\
+                .format(str(self.partner_id.name), str(self.name), str(self.currency_id.symbol), str(self.amount_total),
+                        prods)
+
+            ph_no = self.user_id.mobile
+            link = "https://web.whatsapp.com/send?phone=" + ph_no
+            message_string = parse.quote(custom_msg)
+
+            url_id = link + "&text=" + message_string
+            return {
+                'type': 'ir.actions.act_url',
+                'url': url_id,
+                'target': 'new',
+                'res_id': self.id,
+            }
+

@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<odoo>
+    <record id="whatsapp_sales_template_1" model="mail.template">
+        <field name="name">Whats App Sale template</field>
+        <field name="subject">Sales template</field>
+        <field name="model_id" ref="sale.model_sale_order"/>
+        <field name="body_html"><![CDATA[<div style="font-family: 'Lucica Grande', Ubuntu, Arial, Verdana, sans-serif; font-size: 12px;">
+         <div>
+            Hello *${object.partner_id.name or ''}*,
+         </div>
+         % if object.state == 'draft' or object.state == 'sent':
+            Your Quotation *${object.name}* with amount *${format_amount(object.amount_total, object.currency_id)}* is ready.
+            <div>
+                Your quotation date and time is "${object.date_order}"
+            </div>
+            <div>
+                Quotation details are as follows: <br>
+                % for each in object:
+                    % for id in each.order_line:
+                        *Product: ${id.product_id.name}* <br>
+                         *Qty: ${id.product_uom_qty}*<br>
+                         *Price: ${id.price_subtotal}*<br>
+                    % endfor
+                % endfor
+            </div>
+         % else:
+            <div>
+                Your Sale Order Number *${object.name}* with amount *${format_amount(object.amount_total, object.currency_id)}* is Confirmed.
+            </div>
+            <div>
+                Your order date and time is "${object.date_order}"
+            </div>
+            <div>
+                Your order details are as follows: <br>
+                % for each in object:
+                    % for id in each.order_line:
+                        *Product: ${id.product_id.name}* <br>
+                         *Qty: ${id.product_uom_qty}*<br>
+                         *Price: ${id.price_subtotal}*<br>
+                    % endfor
+                % endfor
+            </div>
+         % endif
+        <div>
+            If you have any questions, please feel free to contact us.
+        </div>
+        ]]>
+        </field>
+    </record>
+</odoo>
