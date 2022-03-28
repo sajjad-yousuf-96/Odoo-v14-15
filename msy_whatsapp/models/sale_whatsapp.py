@@ -1,15 +1,15 @@
-from odoo import models, fields, api, _
+from odoo import models, fields, api
 
 import html2text
 
 import urllib.parse as parse
 
 
-class SendMessage(models.TransientModel):
+class SendMessage(models.Model):
     _name = 'msy.whatsapp'
     _description = 'MSY WHATSAPP SYSTEM'
 
-    user_id = fields.Many2one('res.partner', string="Recipient Name", default=lambda self: self.env[self._context.get('active_model')].browse(self.env.context.get('active_ids')).partner_id)
+    user_id = fields.Many2one('res.partner', string="Recipient Name")
     mobile_number = fields.Char(related='user_id.mobile', required=True)
     message = fields.Text(string="Message")
     model = fields.Char('mail.template.model_id')
@@ -20,8 +20,10 @@ class SendMessage(models.TransientModel):
         self.ensure_one()
         res_id = self._context.get('active_id') or 1
         values = self.onchange_template_id(self.template_id.id, self.model, res_id)['value']
-        for fname, value in values.items():
-            setattr(self, fname, value)
+
+        for ffname, value in values.items():
+
+            setattr(self, ffname, value)
 
     def onchange_template_id(self, template_id, model, res_id):
         if template_id:
@@ -35,27 +37,10 @@ class SendMessage(models.TransientModel):
         values = self._convert_to_write(values)
         return {'value': values}
 
-    def generate_email_for_composer(self, template_id, res_ids, fields=None):
-        multi_mode = True
-        if isinstance(res_ids, int):
-            multi_mode = False
-            res_ids = [res_ids]
-        if fields is None:
-            fields = ['body_html']
-        returned_fields = fields + ['partner_ids']
-        values = dict.fromkeys(res_ids, False)
-        template_values = self.env['mail.template'].with_context(tpl_partners_only=True).browse(template_id).generate_email(res_ids, fields=fields)
-        for res_id in res_ids:
-            res_id_values = dict((field, template_values[res_id][field]) for field in returned_fields if
-                                 template_values[res_id].get(field))
-            res_id_values['message'] = html2text.html2text(res_id_values.pop('body_html', ''))
-            values[res_id] = res_id_values
-        return multi_mode and values or values[res_ids[0]]
-
     def send_custom_message(self):
         if self.message and self.mobile_number:
             message_string = parse.quote(self.message)
-            message_string = message_string[:(len(message_string) - 3)]
+            message_string = message_string[:(len(message_string))]
             number = self.user_id.mobile
             link = "https://web.whatsapp.com/send?phone=" + number
             send_msg = {
@@ -65,4 +50,3 @@ class SendMessage(models.TransientModel):
                 'res_id': self.id,
             }
             return send_msg
-

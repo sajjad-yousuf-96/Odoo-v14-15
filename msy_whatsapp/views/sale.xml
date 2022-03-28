@@ -1,32 +1,45 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <odoo>
-    <data>
-        <record id="whatsapp_wizard" model="ir.ui.view">
-            <field name="name">msy.whatsapp.form</field>
-            <field name="model">msy.whatsapp</field>
-            <field name="priority" eval="8"/>
-            <field name="arch" type="xml">
-                <form string="Send Whatsapp Message">
+
+    <record id="whatsapp_wizard" model="ir.ui.view">
+        <field name="name">msy.whatsapp.form</field>
+        <field name="model">msy.whatsapp</field>
+        <field name="arch" type="xml">
+            <form string="Send Whatsapp Message">
+                <group>
                     <group>
-                        <group>
-                            <field name="user_id"/>
-                            <field name="message"/>
-                        </group>
-                        <field name="model" invisible="1"/>
-                        <group>
-                            <label for="mobile_number" string="Whatsapp Number" style="margin-left:25px !important;width:120px !important"/>
-                            <field name="mobile_number" nolabel="1"/>
-                            <field name="template_id" options="{'no_create': True, 'no_edit': True}" invisible="1"/>
-                        </group>
+                        <field name="user_id"/>
+                        <field name="message"/>
                     </group>
-                    <footer>
-                        <button name="send_custom_message" string="Send" type="object" style="background-color:#7C7BAD;color:#FFFFFF"/>
-                        <button name="cancel" string="Cancel" special="cancel"/>
-                    </footer>
-                </form>
-            </field>
-        </record>
-    </data>
+                    <field name="model" invisible="1"/>
+                    <group>
+                        <label for="mobile_number" string="Whatsapp Number" style="margin-left:25px !important;width:120px !important"/>
+                        <field name="mobile_number" nolabel="1"/>
+
+                    </group>
+                </group>
+                <footer>
+                    <button name="send_custom_message" string="Send" type="object" style="background-color:#7C7BAD;color:#FFFFFF"/>
+                    <button name="cancel" string="Cancel" special="cancel"/>
+                </footer>
+            </form>
+        </field>
+    </record>
+
+    <record id="whatsapp_tree" model="ir.ui.view">
+        <field name="name">msy.whatsapp.tree</field>
+        <field name="model">msy.whatsapp</field>
+        <field name="arch" type="xml">
+                <tree>
+                    <field name="user_id"/>
+                    <field name="message"/>
+                    <field name="model" invisible="1"/>
+                    <field name="mobile_number" nolabel="1"/>
+
+
+                </tree>
+        </field>
+    </record>
 
     <record id="whatsapp_action" model="ir.actions.act_window">
         <field name="name">Whatsapp Messaging</field>
@@ -39,6 +52,7 @@
             </p>
         </field>
     </record>
+
 
 
     <menuitem id="first_whatsapp"
