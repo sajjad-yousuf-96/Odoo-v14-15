@@ -15,6 +15,7 @@ class SendMessage(models.Model):
     message = fields.Text(string="Message")
     model = fields.Char('mail.template.model_id')
     template_id = fields.Many2one('mail.template', 'Use template', index=True)
+    attachments = fields.Binary(string="Attachments")
 
     @api.onchange('template_id')
     def onchange_template_id_wrapper(self):
@@ -44,9 +45,10 @@ class SendMessage(models.Model):
             message_string = message_string[:(len(message_string))]
             number = self.user_id.mobile
             link = "https://web.whatsapp.com/send?phone=" + number
+            attach = parse.quote(self.attachments)
             send_msg = {
                 'type': 'ir.actions.act_url',
-                'url': link + "&text=" + message_string,
+                'url': link + "&text=" + message_string + "&source=" + attach,
                 'target': 'new',
                 'res_id': self.id,
             }
