@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+
+    <record id="view_order_form_inherit" model="ir.ui.view">
+        <field name="name">res.partner.inherited</field>
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="base.view_partner_form"/>
+        <field name="arch" type="xml">
+            <field name="name" position="replace">
+                <field name="name"
+                       attrs="{'invisible': [('company_type','=', 'person')], 'required' : [('type', '=', 'contact')]}"/>
+                <h6>
+
+                    <field name="first_name" attrs="{'invisible': [('company_type','=', 'company')]}" placeholder="First Name" style="width:200px" required="True"/>
+                    <field name="middle_name" attrs="{'invisible': [('company_type','=', 'company')]}" placeholder="Middle Name" style="width:200px"/>
+                    <field name="last_name" attrs="{'invisible': [('company_type','=', 'company')]}" placeholder="Last Name" style="width:200px" required="True"/>
+
+                </h6>
+                
+            </field>
+            <field name="country_id" position="before">
+                <field name="national_id" attrs="{'invisible': [('company_type','=', 'company')]}"  placeholder="National ID"/>
+            </field>
+                <field name="website" position="before">
+
+
+                <field name="gender" attrs="{'invisible': [('company_type','=', 'company')]}"  placeholder="Gender"/>
+                <field name="dob" attrs="{'invisible': [('company_type','=', 'company')]}"  placeholder="DOB"/>
+                <field name="age" attrs="{'invisible': [('company_type','=', 'company')]}"  placeholder="Age"/>
+            </field>
+        </field>
+    </record>
+
+
+</odoo>
