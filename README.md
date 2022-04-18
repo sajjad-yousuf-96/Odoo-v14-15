@@ -16,10 +16,12 @@ The main Odoo Apps include an <a href="https://www.odoo.com/page/crm">Open Sourc
 <a href="https://www.odoo.com/page/manufacturing">Manufacturing</a>,
 <a href="https://www.odoo.com/#apps">...</a>
   
-<br>
+
 <h2>The Main Architecture of Odoo in a Nutshell:</h2>
 1. Backend: Postgresql, Python 3 (Odoo 11.0 and up), XML
-2. - Frontend: HTML, Javascript, QWeb (proprietary), XML
+<br>
+2. Frontend: HTML, Javascript, QWeb (proprietary), XML
+<br>
 3. Odoo follows a MVC architecture:
 
 Odoo Apps can be used as stand-alone applications, but they also integrate seamlessly so you get
