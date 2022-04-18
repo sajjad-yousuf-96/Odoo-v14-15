@@ -59,6 +59,6 @@ You can get the pdf of how to setup odoo in ubuntu by click on given link:
 <a href="https://github.com/sajjad-yousuf-96/Odoo-v14/blob/main/Odoo%20Setup.pdf" download>Download Odoo Setup Instruction PDF</a>.
 
 
-
-
+<h2>How To Get My Custom Addons run your OS</h2>
+You simply have to add custom addons path in our odoo.conf in your Odoo #version directory and paste my custom Addons folder in that path and simply run the module
 
