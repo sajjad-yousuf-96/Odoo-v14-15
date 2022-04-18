@@ -1,5 +1,5 @@
 # Odoo-v14
-<img width="50%" src="Odoo-Apps" align="left" />
+<img width="50%" src="Odoo-Apps.png" align="cnter" />
 <br>
 <h2>What Is Odoo</h2>
 <h3>Odoo is a suite of web based open source business apps.</h3>
