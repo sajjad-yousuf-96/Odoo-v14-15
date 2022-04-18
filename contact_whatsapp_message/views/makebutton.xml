@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <menuitem id="menu_contacts_whatsapp"
+        name="Send Whatsapp Message"
+        action="action_whatsapp_wizard"
+        parent="contacts.menu_contacts"
+        sequence="25"
+        />
+</odoo>
+

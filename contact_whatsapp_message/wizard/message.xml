@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<odoo>
+    <record id="whatsapp_wizard_view_form" model="ir.ui.view">
+        <field name="name">whatsapp.wizard.form</field>
+        <field name="model">whatsapp.wizard</field>
+        <field name="arch" type="xml">
+            <form string="Send Message">
+                <group>
+                    <field name="name"/>
+                    <field name="phone" required="True"/>
+                    <field name="message" required="True"/>
+                </group>
+                <footer>
+                    <button icon="fa-whatsapp" style="color:#25D366;border:none" help="Send WhatsApp Message" name="contact_whatsapp" type="object"/>
+                    <button string="Cancel" class="btn-secondary" special="cancel"/>
+                </footer>
+            </form>
+        </field>
+    </record>
+
+    <record id="action_whatsapp_wizard" model="ir.actions.act_window">
+        <field name="name">Send Message</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">whatsapp.wizard</field>
+        <field name="view_mode">form</field>
+        <field name="view_id" ref="whatsapp_wizard_view_form"/>
+        <field name="target">new</field>
+    </record>
+</odoo>
