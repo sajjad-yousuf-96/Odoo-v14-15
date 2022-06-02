@@ -1,0 +1,46 @@
+.required-fields {
+    color: #ff0000;
+    font-size: 13px;
+}
+
+.error{
+	color: #ff0000;
+}
+
+#first_name, #last_name, #city, #state, #fathers_first_name, #fathers_last_name, #spouse_first_name, #spouse_last_name, #mothers_first_name, #mothers_last_name {
+	text-transform:capitalize;
+}
+
+.tab-container{
+    float:left;
+    width: 98%;
+    margin: 10px;
+}
+
+.ptab{
+    float: left;
+    min-height: 50px;
+    /*line-height: 50px;*/
+    border: 1px solid #E9EAEE;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 10px;
+    font-size: 15px;
+}
+
+.ptab:hover,a:hover{
+    background:#E9EAEE;
+    text-decoration: none;
+}
+
+.sw-theme-arrows > .nav .nav-link.active {
+	color: #fff;
+    background-color: #700f1a;
+    border-color: #700f1a;
+}
+
+label{
+	padding-left: 3px;
+}

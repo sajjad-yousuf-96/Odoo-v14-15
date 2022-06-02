@@ -1,0 +1,1613 @@
+<!-- saved from url=(0065)https://onlineadmission.iba.edu.pk/admissions/user_profile#step-1 -->
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <style>@keyframes beginBrowserAutofill{0%{}to{}}@keyframes
+            endBrowserAutofill{0%{}to{}}.pac-container{background-color:#fff;position:absolute!important;z-index:1000;border-radius:2px;border-top:1px
+            solid #d9d9d9;font-family:Arial,sans-serif;box-shadow:0 2px 6px
+            rgba(0,0,0,.3);-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;overflow:hidden}.pac-logo:after{content:"";padding:1px
+            1px 1px
+            0;height:18px;box-sizing:border-box;text-align:right;display:block;background-image:url(https://maps.gstatic.com/mapfiles/api-3/images/powered-by-google-on-white3.png);background-position:right;background-repeat:no-repeat;background-size:120px
+            14px}.hdpi.pac-logo:after{background-image:url(https://maps.gstatic.com/mapfiles/api-3/images/powered-by-google-on-white3_hdpi.png)}.pac-item{cursor:default;padding:0
+            4px;text-overflow:ellipsis;overflow:hidden;white-space:nowrap;line-height:30px;text-align:left;border-top:1px
+            solid
+            #e6e6e6;font-size:11px;color:#515151}.pac-item:hover{background-color:#fafafa}.pac-item-selected,.pac-item-selected:hover{background-color:#ebf2fe}.pac-matched{font-weight:700}.pac-item-query{font-size:13px;padding-right:3px;color:#000}.pac-icon{width:15px;height:20px;margin-right:7px;margin-top:6px;display:inline-block;vertical-align:top;background-image:url(https://maps.gstatic.com/mapfiles/api-3/images/autocomplete-icons.png);background-size:34px}.hdpi
+            .pac-icon{background-image:url(https://maps.gstatic.com/mapfiles/api-3/images/autocomplete-icons_hdpi.png)}.pac-icon-search{background-position:-1px
+            -1px}.pac-item-selected .pac-icon-search{background-position:-18px
+            -1px}.pac-icon-marker{background-position:-1px -161px}.pac-item-selected
+            .pac-icon-marker{background-position:-18px
+            -161px}.pac-placeholder{color:gray}.pac-target-input:-webkit-autofill{animation-name:beginBrowserAutofill}.pac-target-input:not(:-webkit-autofill){animation-name:endBrowserAutofill}
+        </style>
+        <script type="text/javascript" async=""
+                src="./Candidate Profile – Online Admission System, IBA Karachi_files/analytics.js"/>
+        <script type="text/javascript">
+            var defaultFormStepSelected = 0;
+        </script>
+
+
+        <meta name="robots" content="noindex, nofollow"/>
+        <link rel="shortcut icon" type="image/x-icon"
+              href="https://onlineadmission.iba.edu.pk/assets/oas-frontend/images/favicon.ico"/>
+        <title>Candidate Profile – Online Admission System, IBA Karachi</title>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async="" src="./Candidate Profile – Online Admission System, IBA Karachi_files/js"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-139852632-1');
+        </script>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <link href="./Candidate Profile – Online Admission System, IBA Karachi_files/bootstrap.min.css" rel="stylesheet"
+              id="bootstrap-css"/>
+        <link href="./Candidate Profile – Online Admission System, IBA Karachi_files/smart_wizard_all.css"
+              rel="stylesheet" type="text/css"/>
+        <link href="./Candidate Profile – Online Admission System, IBA Karachi_files/smart_wizard_theme_arrows.css"
+              rel="stylesheet" type="text/css"/>
+        <link href="https://onlineadmission.iba.edu.pk/admissions/user_profile" rel="stylesheet" type="text/css"/>
+        <link href="https://onlineadmission.iba.edu.pk/admissions/user_profile" rel="stylesheet" type="text/css"/>
+
+        <link href="./Candidate Profile – Online Admission System, IBA Karachi_files/style.css" rel="stylesheet"
+              id="appl-css"/>
+        <script src="./Candidate Profile – Online Admission System, IBA Karachi_files/jquery.min.js"
+                crossorigin="anonymous"/>
+        <script src="./Candidate Profile – Online Admission System, IBA Karachi_files/popper.min.js"
+                crossorigin="anonymous"/>
+        <script src="./Candidate Profile – Online Admission System, IBA Karachi_files/bootstrap.min.js"
+                crossorigin="anonymous"/>
+        <script type="text/javascript"
+                src="./Candidate Profile – Online Admission System, IBA Karachi_files/jquery.smartWizard.min.js"/>
+        <script src="./Candidate Profile – Online Admission System, IBA Karachi_files/jquery.mask.js"
+                crossorigin="anonymous"/>
+        <script src="./Candidate Profile – Online Admission System, IBA Karachi_files/jquery.validate.min.js"/>
+        <script src="./Candidate Profile – Online Admission System, IBA Karachi_files/additional-methods.min.js"/>
+        <script src="./Candidate Profile – Online Admission System, IBA Karachi_files/bootbox.min.js"/>
+        <script src="./Candidate Profile – Online Admission System, IBA Karachi_files/autosize.min.js"/>
+        <script type="text/javascript">
+            if (typeof defaultFormStepSelected === 'undefined'){
+            var defaultFormStepSelected = 0;
+            }
+        </script>
+        <script src="./Candidate Profile – Online Admission System, IBA Karachi_files/jquery.dataTables.min.js"/>
+        <script src="./Candidate Profile – Online Admission System, IBA Karachi_files/dataTables.bootstrap4.min.js"/>
+        <script src="./Candidate Profile – Online Admission System, IBA Karachi_files/script1.0.js"
+                crossorigin="anonymous"/>
+        <script type="text/javascript">
+        </script>
+        <link rel="stylesheet" type="text/css"
+              href="./Candidate Profile – Online Admission System, IBA Karachi_files/font-awesome.min.css"/>
+        <style type="text/css">
+            /*Accordion Arrow CSS*/
+            .panel-accordion > a {
+            display: block;
+            position: relative;
+            color: #007bff !important;
+            }
+
+            .panel-accordion > a:hover {
+            background:none;
+            }
+
+            .panel-accordion > a:after {
+            content: "\f078"; /* fa-chevron-down */
+            font-family: 'FontAwesome';
+            position: absolute;
+            right: 0;
+            }
+            .panel-accordion > a[aria-expanded="true"]:after {
+            content: "\f077"; /* fa-chevron-up */
+            }
+        </style>
+        <link href="./Candidate Profile – Online Admission System, IBA Karachi_files/demo_style.css" rel="stylesheet"
+              type="text/css"/>
+        <script src="chrome-extension://mooikfkahbdckldjjndioackbalphokd/assets/prompt.js"/>
+        <script type="text/javascript" charset="UTF-8"
+                src="./Candidate Profile – Online Admission System, IBA Karachi_files/common.js"/>
+        <script type="text/javascript" charset="UTF-8"
+                src="./Candidate Profile – Online Admission System, IBA Karachi_files/util.js"/>
+        <script type="text/javascript" charset="UTF-8"
+                src="./Candidate Profile – Online Admission System, IBA Karachi_files/controls.js"/>
+        <script type="text/javascript" charset="UTF-8"
+                src="./Candidate Profile – Online Admission System, IBA Karachi_files/places_impl.js"/>
+    </head>
+
+
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <a class="navbar-brand" href="https://onlineadmission.iba.edu.pk/admissions/user_profile#">
+                        <img src="./Candidate Profile – Online Admission System, IBA Karachi_files/ibalogo.jpg"/>
+                        <!-- <img src="/docs/4.1/assets/brand/bootstrap-solid.svg" width="30" height="30" alt=""> -->
+                    </a>
+                </div>
+                <div class="col-md-6">
+                    <img class="mr-5" style="float:right; padding-top:20px;"
+                         src="./Candidate Profile – Online Admission System, IBA Karachi_files/online-admissions.png"/>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-md-12">
+                    <div class="card">
+                        <header class="card-header">
+                            <a href="https://onlineadmission.iba.edu.pk/admissions/logout"
+                               class="float-right btn btn-outline-primary mt-1" style="margin-left:5px;">Logout
+                            </a>
+                            <a href="https://onlineadmission.iba.edu.pk/admissions/change_password"
+                               class="float-right btn btn-outline-primary mt-1">Change Password
+                            </a>
+                            <h4 class="card-title mt-2">Candidate Profile</h4>
+                        </header>
+                        <article class="card-body">
+                            <div class="row">
+                                <div class="col-md-8" style="flex: 0 0 77%; max-width:77%; padding-left:15px;">
+                                    <div style="text-align:justify;">
+                                        This application is a key part of the admission process.
+                                        Complete and accurate answers to the questions are, therefore, extremely
+                                        important.
+                                        Incomplete or false information will adversely affect your chances of selection.
+
+                                        <span style="font-weight:bold;">Any admission granted on the basis of false
+                                            information will be cancelled.
+                                        </span>
+
+                                        Please ensure that your telephone and mobile numbers, Email and postal address
+                                        are correct and updated.
+
+                                        <span style="font-weight:bold;">Photograph Specification</span>
+
+                                        Your photo is a vital part of your application.
+                                        Please follow these instructions carefully.
+                                        If photographs received do not meet these requirements your application will be
+                                        considered incomplete.
+
+                                        <ul style="list-style-type:disc;">
+                                            <li>A color photo is required.</li>
+                                            <li>The photograph should be on a plain white/blue background.</li>
+                                            <li>The photo should have been taken within the last 1 week to reflect your
+                                                current appearance.
+                                            </li>
+                                            <li>The photo should show a clear, front view, full face of the person. Side
+                                                or angled views are NOT acceptable.
+                                            </li>
+                                            <li>Snapshots, magazine photos, low quality vending machine or mobile phone
+                                                photos and full length photographs are not acceptable.
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 text-center" style="flex: 0 0 23%; max-width: 23%;">
+                                    <form id="photo_form">
+                                        <img id="user-image" class="img img-thumbnail"
+                                             src="./Candidate Profile – Online Admission System, IBA Karachi_files/no-image.gif"/>
+                                        <div class="mb-2 mt-2 file file btn btn-md btn-primary"
+                                             style="position: relative;overflow: hidden;" id="photo_change_div">
+                                            Upload Photo
+                                            <input type="file" name="photo_upload" id="photo_upload" accept=".jpg,.jpeg"
+                                                   style="position: absolute;font-size: 50px;opacity: 0;right: 0;top: 0;"/>
+                                        </div>
+                                        <div class="imgUpload-alert alert alert-warning"
+                                             style="display:none; padding: 0px;">Uploading...
+                                        </div>
+                                        <div class="alert alert-secondary" style="font-size:13px;padding: 0px;">Only
+                                            photos with jpg/jpeg extensions are allowed upto 5 MB file size.
+
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <!---->
+                            <div class="row">
+                                <div class="col-md" style="padding: 0px;">
+                                    <div id="form-wizard" class="sw sw-theme-arrows sw-justified">
+                                        <ul class="nav">
+                                            <li style="">
+                                                <a class="nav-link inactive active"
+                                                   href="https://onlineadmission.iba.edu.pk/admissions/user_profile#step-1">
+                                                    Step 1
+
+                                                    <small>Demographic Information</small>
+                                                </a>
+                                            </li>
+                                            <li style="">
+                                                <a class="nav-link inactive"
+                                                   href="https://onlineadmission.iba.edu.pk/admissions/user_profile#step-2">
+                                                    Step 2
+
+                                                    <small>Educational Background</small>
+                                                </a>
+                                            </li>
+                                            <li style="">
+                                                <a class="nav-link inactive"
+                                                   href="https://onlineadmission.iba.edu.pk/admissions/user_profile#step-3">
+                                                    Step 3
+
+                                                    <small>Additional Information</small>
+                                                </a>
+                                            </li>
+                                            <li style="">
+                                                <a class="nav-link inactive"
+                                                   href="https://onlineadmission.iba.edu.pk/admissions/user_profile#step-4">
+                                                    Preview
+
+                                                    <small>Preview of the Profile</small>
+                                                </a>
+                                            </li>
+                                            <li style="">
+                                                <a class="nav-link inactive"
+                                                   href="https://onlineadmission.iba.edu.pk/admissions/user_profile#step-5">
+                                                    Finalize
+
+                                                    <small>Submit Your Profile</small>
+                                                </a>
+                                            </li>
+                                            <li style="">
+                                                <a class="nav-link inactive"
+                                                   href="https://onlineadmission.iba.edu.pk/admissions/user_profile#step-6">
+                                                    Program
+
+                                                    <small>Apply for a Program</small>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                        <div class="tab-content">
+                                            <div class="tab-pane" role="tabpanel" id="step-1" style="display: block;">
+                                                <h6 class="StepTitle alert alert-primary">Demographic Information</h6>
+                                                <div class="row justify-content-center">
+                                                    <div class="col-md-12">
+                                                        <div class="card">
+                                                            <article class="card-body">
+                                                                <form action="https://onlineadmission.iba.edu.pk/admissions/ajax"
+                                                                      id="frm_personal_info" method="post"
+                                                                      accept-charset="utf-8">
+                                                                    <div class="form-row">
+                                                                        <div class="col form-group">
+                                                                            <label>First Name
+                                                                                <span class="required-fields">*</span>
+                                                                            </label>
+                                                                            <input type="text" name="first_name"
+                                                                                   id="first_name" class="form-control"
+                                                                                   value=""/>
+                                                                            <small class="form-text text-muted">Same as
+                                                                                CNIC/B-Form
+                                                                            </small>
+                                                                        </div>
+                                                                        <div class="col form-group">
+                                                                            <label>Last Name
+                                                                                <span class="required-fields">*</span>
+                                                                            </label>
+                                                                            <input type="text" name="last_name"
+                                                                                   id="last_name" class="form-control"
+                                                                                   value=""/>
+                                                                            <small class="form-text text-muted">Same as
+                                                                                CNIC/B-Form
+                                                                            </small>
+                                                                        </div>
+                                                                    </div>
+                                                                    <!---->
+                                                                    <div class="form-row">
+                                                                        <div class="col form-group col-md-6">
+                                                                            <label>Email Address
+                                                                                <span class="required-fields">*</span>
+                                                                            </label>
+                                                                            <input type="email" name="email" id="email"
+                                                                                   class="form-control"
+                                                                                   value="kashyoyo123@gmail.com"
+                                                                                   disabled=""/>
+                                                                        </div>
+                                                                        <div class="form-group col-md-6"
+                                                                             id="cnic_no_box">
+                                                                            <label>CNIC Number
+                                                                                <span class="required-fields">*</span>
+                                                                            </label>
+                                                                            <input type="text" name="cnic_no"
+                                                                                   id="cnic_no" class="form-control"
+                                                                                   value="3230410310643" disabled=""
+                                                                                   placeholder="_____-_______-_"
+                                                                                   maxlength="15"/>
+                                                                        </div>
+                                                                    </div>
+                                                                    <!---->
+                                                                    <div class="form-row">
+                                                                        <div class="form-group col-md-4">
+                                                                            <label>Nationality
+                                                                                <span class="required-fields">*</span>
+                                                                            </label>
+
+                                                                            <label class="form-check form-check-inline">
+                                                                                <input class="form-check-input"
+                                                                                       type="radio" name="nationality"
+                                                                                       value="Pakistani" checked=""
+                                                                                       disabled=""/>
+                                                                                <span class="form-check-label">
+                                                                                    Pakistani
+                                                                                </span>
+                                                                            </label>
+                                                                            <label class="form-check form-check-inline">
+                                                                                <input class="form-check-input"
+                                                                                       type="radio" name="nationality"
+                                                                                       value="Other" disabled=""/>
+                                                                                <span class="form-check-label">Other
+                                                                                </span>
+                                                                            </label>
+                                                                        </div>
+                                                                        <div class="col form-group col-md-4">
+                                                                            <label>Country Code
+                                                                                <span class="required-fields">*</span>
+                                                                            </label>
+                                                                            <select name="country_code"
+                                                                                    class="form-control">
+                                                                                <option value="+93">Afghanistan (+93)
+                                                                                </option>
+                                                                                <option value="+355">Albania (+355)
+                                                                                </option>
+                                                                                <option value="+213">Algeria (+213)
+                                                                                </option>
+                                                                                <option value="+376">Andorra (+376)
+                                                                                </option>
+                                                                                <option value="+244">Angola (+244)
+                                                                                </option>
+                                                                                <option value="+1264">Anguilla (+1264)
+                                                                                </option>
+                                                                                <option value="+1268">Antigua &amp;
+                                                                                    Barbuda (+1268)
+                                                                                </option>
+                                                                                <option value="+54">Argentina (+54)
+                                                                                </option>
+                                                                                <option value="+374">Armenia (+374)
+                                                                                </option>
+                                                                                <option value="+297">Aruba (+297)
+                                                                                </option>
+                                                                                <option value="+61">Australia (+61)
+                                                                                </option>
+                                                                                <option value="+43">Austria (+43)
+                                                                                </option>
+                                                                                <option value="+994">Azerbaijan (+994)
+                                                                                </option>
+                                                                                <option value="+1242">Bahamas (+1242)
+                                                                                </option>
+                                                                                <option value="+973">Bahrain (+973)
+                                                                                </option>
+                                                                                <option value="+880">Bangladesh (+880)
+                                                                                </option>
+                                                                                <option value="+1246">Barbados (+1246)
+                                                                                </option>
+                                                                                <option value="+375">Belarus (+375)
+                                                                                </option>
+                                                                                <option value="+32">Belgium (+32)
+                                                                                </option>
+                                                                                <option value="+501">Belize (+501)
+                                                                                </option>
+                                                                                <option value="+229">Benin (+229)
+                                                                                </option>
+                                                                                <option value="+1441">Bermuda (+1441)
+                                                                                </option>
+                                                                                <option value="+975">Bhutan (+975)
+                                                                                </option>
+                                                                                <option value="+591">Bolivia (+591)
+                                                                                </option>
+                                                                                <option value="+387">Bosnia Herzegovina
+                                                                                    (+387)
+                                                                                </option>
+                                                                                <option value="+267">Botswana (+267)
+                                                                                </option>
+                                                                                <option value="+55">Brazil (+55)
+                                                                                </option>
+                                                                                <option value="+673">Brunei (+673)
+                                                                                </option>
+                                                                                <option value="+359">Bulgaria (+359)
+                                                                                </option>
+                                                                                <option value="+226">Burkina Faso
+                                                                                    (+226)
+                                                                                </option>
+                                                                                <option value="+257">Burundi (+257)
+                                                                                </option>
+                                                                                <option value="+855">Cambodia (+855)
+                                                                                </option>
+                                                                                <option value="+237">Cameroon (+237)
+                                                                                </option>
+                                                                                <option value="+1">Virgin Islands - US
+                                                                                    (+1)
+                                                                                </option>
+                                                                                <option value="+238">Cape Verde Islands
+                                                                                    (+238)
+                                                                                </option>
+                                                                                <option value="+1345">Cayman Islands
+                                                                                    (+1345)
+                                                                                </option>
+                                                                                <option value="+236">Central African
+                                                                                    Republic (+236)
+                                                                                </option>
+                                                                                <option value="+56">Chile (+56)</option>
+                                                                                <option value="+86">China (+86)</option>
+                                                                                <option value="+57">Colombia (+57)
+                                                                                </option>
+                                                                                <option value="+269">Mayotte (+269)
+                                                                                </option>
+                                                                                <option value="+242">Congo (+242)
+                                                                                </option>
+                                                                                <option value="+682">Cook Islands
+                                                                                    (+682)
+                                                                                </option>
+                                                                                <option value="+506">Costa Rica (+506)
+                                                                                </option>
+                                                                                <option value="+385">Croatia (+385)
+                                                                                </option>
+                                                                                <option value="+53">Cuba (+53) --
+                                                                                </option>
+                                                                                <option value="+90">Turkey (+90)
+                                                                                </option>
+                                                                                <option value="+357">Cyprus - South
+                                                                                    (+357)
+                                                                                </option>
+                                                                                <option value="+420">Czech Republic
+                                                                                    (+420)
+                                                                                </option>
+                                                                                <option value="+45">Denmark (+45)
+                                                                                </option>
+                                                                                <option value="+253">Djibouti (+253)
+                                                                                </option>
+                                                                                <option value="+1809">Dominican Republic
+                                                                                    (+1809)
+                                                                                </option>
+                                                                                <option value="+593">Ecuador (+593)
+                                                                                </option>
+                                                                                <option value="+20">Egypt (+20)</option>
+                                                                                <option value="+503">El Salvador
+                                                                                    (+503)
+                                                                                </option>
+                                                                                <option value="+240">Equatorial Guinea
+                                                                                    (+240)
+                                                                                </option>
+                                                                                <option value="+291">Eritrea (+291)
+                                                                                </option>
+                                                                                <option value="+372">Estonia (+372)
+                                                                                </option>
+                                                                                <option value="+251">Ethiopia (+251)
+                                                                                </option>
+                                                                                <option value="+500">Falkland Islands
+                                                                                    (+500)
+                                                                                </option>
+                                                                                <option value="+298">Faroe Islands
+                                                                                    (+298)
+                                                                                </option>
+                                                                                <option value="+679">Fiji (+679)
+                                                                                </option>
+                                                                                <option value="+358">Finland (+358)
+                                                                                </option>
+                                                                                <option value="+33">France (+33)
+                                                                                </option>
+                                                                                <option value="+594">French Guiana
+                                                                                    (+594)
+                                                                                </option>
+                                                                                <option value="+689">French Polynesia
+                                                                                    (+689)
+                                                                                </option>
+                                                                                <option value="+241">Gabon (+241)
+                                                                                </option>
+                                                                                <option value="+220">Gambia (+220)
+                                                                                </option>
+                                                                                <option value="+7880">Georgia (+7880)
+                                                                                </option>
+                                                                                <option value="+49">Germany (+49)
+                                                                                </option>
+                                                                                <option value="+233">Ghana (+233)
+                                                                                </option>
+                                                                                <option value="+350">Gibraltar (+350)
+                                                                                </option>
+                                                                                <option value="+30">Greece (+30)
+                                                                                </option>
+                                                                                <option value="+299">Greenland (+299)
+                                                                                </option>
+                                                                                <option value="+1473">Grenada (+1473)
+                                                                                </option>
+                                                                                <option value="+590">Guadeloupe (+590)
+                                                                                </option>
+                                                                                <option value="+671">Guam (+671)
+                                                                                </option>
+                                                                                <option value="+502">Guatemala (+502)
+                                                                                </option>
+                                                                                <option value="+224">Guinea (+224)
+                                                                                </option>
+                                                                                <option value="+245">Guinea - Bissau
+                                                                                    (+245)
+                                                                                </option>
+                                                                                <option value="+592">Guyana (+592)
+                                                                                </option>
+                                                                                <option value="+509">Haiti (+509)
+                                                                                </option>
+                                                                                <option value="+504">Honduras (+504)
+                                                                                </option>
+                                                                                <option value="+852">Hong Kong (+852)
+                                                                                </option>
+                                                                                <option value="+36">Hungary (+36)
+                                                                                </option>
+                                                                                <option value="+354">Iceland (+354)
+                                                                                </option>
+                                                                                <option value="+91">India (+91)</option>
+                                                                                <option value="+62">Indonesia (+62)
+                                                                                </option>
+                                                                                <option value="+964">Iraq (+964)
+                                                                                </option>
+                                                                                <option value="+98">Iran (+98) --
+                                                                                </option>
+                                                                                <option value="+353">Ireland (+353)
+                                                                                </option>
+                                                                                <option value="+972">Israel (+972)
+                                                                                </option>
+                                                                                <option value="+39">Italy (+39)</option>
+                                                                                <option value="+1876">Jamaica (+1876)
+                                                                                </option>
+                                                                                <option value="+81">Japan (+81)</option>
+                                                                                <option value="+962">Jordan (+962)
+                                                                                </option>
+                                                                                <option value="+7">Russia (+7)</option>
+                                                                                <option value="+254">Kenya (+254)
+                                                                                </option>
+                                                                                <option value="+686">Kiribati (+686)
+                                                                                </option>
+                                                                                <option value="+850">Korea - North
+                                                                                    (+850) --
+                                                                                </option>
+                                                                                <option value="+82">Korea - South
+                                                                                    (+82)
+                                                                                </option>
+                                                                                <option value="+965">Kuwait (+965)
+                                                                                </option>
+                                                                                <option value="+996">Kyrgyzstan (+996)
+                                                                                </option>
+                                                                                <option value="+856">Laos (+856)
+                                                                                </option>
+                                                                                <option value="+371">Latvia (+371)
+                                                                                </option>
+                                                                                <option value="+961">Lebanon (+961)
+                                                                                </option>
+                                                                                <option value="+266">Lesotho (+266)
+                                                                                </option>
+                                                                                <option value="+231">Liberia (+231)
+                                                                                </option>
+                                                                                <option value="+218">Libya (+218)
+                                                                                </option>
+                                                                                <option value="+417">Liechtenstein
+                                                                                    (+417)
+                                                                                </option>
+                                                                                <option value="+370">Lithuania (+370)
+                                                                                </option>
+                                                                                <option value="+352">Luxembourg (+352)
+                                                                                </option>
+                                                                                <option value="+853">Macao (+853)
+                                                                                </option>
+                                                                                <option value="+389">Macedonia (+389)
+                                                                                </option>
+                                                                                <option value="+261">Madagascar (+261)
+                                                                                </option>
+                                                                                <option value="+265">Malawi (+265)
+                                                                                </option>
+                                                                                <option value="+60">Malaysia (+60)
+                                                                                </option>
+                                                                                <option value="+960">Maldives (+960)
+                                                                                </option>
+                                                                                <option value="+223">Mali (+223)
+                                                                                </option>
+                                                                                <option value="+356">Malta (+356)
+                                                                                </option>
+                                                                                <option value="+692">Marshall Islands
+                                                                                    (+692)
+                                                                                </option>
+                                                                                <option value="+596">Martinique (+596)
+                                                                                </option>
+                                                                                <option value="+222">Mauritania (+222)
+                                                                                </option>
+                                                                                <option value="+52">Mexico (+52)
+                                                                                </option>
+                                                                                <option value="+691">Micronesia (+691)
+                                                                                </option>
+                                                                                <option value="+373">Moldova (+373)
+                                                                                </option>
+                                                                                <option value="+377">Monaco (+377)
+                                                                                </option>
+                                                                                <option value="+976">Mongolia (+976)
+                                                                                </option>
+                                                                                <option value="+1664">Montserrat
+                                                                                    (+1664)
+                                                                                </option>
+                                                                                <option value="+212">Morocco (+212)
+                                                                                </option>
+                                                                                <option value="+258">Mozambique (+258)
+                                                                                </option>
+                                                                                <option value="+95">Myanmar (+95)
+                                                                                </option>
+                                                                                <option value="+264">Namibia (+264)
+                                                                                </option>
+                                                                                <option value="+674">Nauru (+674)
+                                                                                </option>
+                                                                                <option value="+977">Nepal (+977)
+                                                                                </option>
+                                                                                <option value="+31">Netherlands (+31)
+                                                                                </option>
+                                                                                <option value="+687">New Caledonia
+                                                                                    (+687)
+                                                                                </option>
+                                                                                <option value="+64">New Zealand (+64)
+                                                                                </option>
+                                                                                <option value="+505">Nicaragua (+505)
+                                                                                </option>
+                                                                                <option value="+227">Niger (+227)
+                                                                                </option>
+                                                                                <option value="+234">Nigeria (+234)
+                                                                                </option>
+                                                                                <option value="+683">Niue (+683)
+                                                                                </option>
+                                                                                <option value="+672">Norfolk Islands
+                                                                                    (+672)
+                                                                                </option>
+                                                                                <option value="+670">Northern Marianas
+                                                                                    (+670)
+                                                                                </option>
+                                                                                <option value="+47">Norway (+47)
+                                                                                </option>
+                                                                                <option value="+968">Oman (+968)
+                                                                                </option>
+                                                                                <option value="+92" selected="selected">
+                                                                                    Pakistan (+92)
+                                                                                </option>
+                                                                                <option value="+680">Palau (+680)
+                                                                                </option>
+                                                                                <option value="+507">Panama (+507)
+                                                                                </option>
+                                                                                <option value="+675">Papua New Guinea
+                                                                                    (+675)
+                                                                                </option>
+                                                                                <option value="+595">Paraguay (+595)
+                                                                                </option>
+                                                                                <option value="+51">Peru (+51)</option>
+                                                                                <option value="+63">Philippines (+63)
+                                                                                </option>
+                                                                                <option value="+48">Poland (+48)
+                                                                                </option>
+                                                                                <option value="+351">Portugal (+351)
+                                                                                </option>
+                                                                                <option value="+1787">Puerto Rico
+                                                                                    (+1787)
+                                                                                </option>
+                                                                                <option value="+974">Qatar (+974)
+                                                                                </option>
+                                                                                <option value="+262">Reunion (+262)
+                                                                                </option>
+                                                                                <option value="+40">Romania (+40)
+                                                                                </option>
+                                                                                <option value="+250">Rwanda (+250)
+                                                                                </option>
+                                                                                <option value="+378">San Marino (+378)
+                                                                                </option>
+                                                                                <option value="+239">Sao Tome &amp;
+                                                                                    Principe (+239)
+                                                                                </option>
+                                                                                <option value="+966">Saudi Arabia
+                                                                                    (+966)
+                                                                                </option>
+                                                                                <option value="+221">Senegal (+221)
+                                                                                </option>
+                                                                                <option value="+381">Serbia (+381)
+                                                                                </option>
+                                                                                <option value="+248">Seychelles (+248)
+                                                                                </option>
+                                                                                <option value="+232">Sierra Leone
+                                                                                    (+232)
+                                                                                </option>
+                                                                                <option value="+65">Singapore (+65)
+                                                                                </option>
+                                                                                <option value="+421">Slovak Republic
+                                                                                    (+421)
+                                                                                </option>
+                                                                                <option value="+386">Slovenia (+386)
+                                                                                </option>
+                                                                                <option value="+677">Solomon Islands
+                                                                                    (+677)
+                                                                                </option>
+                                                                                <option value="+252">Somalia (+252)
+                                                                                </option>
+                                                                                <option value="+27">South Africa (+27)
+                                                                                </option>
+                                                                                <option value="+34">Spain (+34)</option>
+                                                                                <option value="+94">Sri Lanka (+94)
+                                                                                </option>
+                                                                                <option value="+290">St. Helena (+290)
+                                                                                </option>
+                                                                                <option value="+1869">St. Kitts
+                                                                                    (+1869)
+                                                                                </option>
+                                                                                <option value="+1758">St. Lucia
+                                                                                    (+1758)
+                                                                                </option>
+                                                                                <option value="+597">Suriname (+597)
+                                                                                </option>
+                                                                                <option value="+249">Sudan (+249)
+                                                                                </option>
+                                                                                <option value="+268">Swaziland (+268)
+                                                                                </option>
+                                                                                <option value="+46">Sweden (+46)
+                                                                                </option>
+                                                                                <option value="+41">Switzerland (+41)
+                                                                                </option>
+                                                                                <option value="+963">Syria (+963) --
+                                                                                </option>
+                                                                                <option value="+886">Taiwan (+886)
+                                                                                </option>
+                                                                                <option value="+255">Tanzania (+255)
+                                                                                </option>
+                                                                                <option value="+992">Tajikistan (+992)
+                                                                                </option>
+                                                                                <option value="+66">Thailand (+66)
+                                                                                </option>
+                                                                                <option value="+228">Togo (+228)
+                                                                                </option>
+                                                                                <option value="+676">Tonga (+676)
+                                                                                </option>
+                                                                                <option value="+1868">Trinidad &amp;
+                                                                                    Tobago (+1868)
+                                                                                </option>
+                                                                                <option value="+216">Tunisia (+216)
+                                                                                </option>
+                                                                                <option value="+993">Turkmenistan
+                                                                                    (+993)
+                                                                                </option>
+                                                                                <option value="+1649">Turks &amp; Caicos
+                                                                                    Islands (+1649)
+                                                                                </option>
+                                                                                <option value="+688">Tuvalu (+688)
+                                                                                </option>
+                                                                                <option value="+256">Uganda (+256)
+                                                                                </option>
+                                                                                <option value="+380">Ukraine (+380)
+                                                                                </option>
+                                                                                <option value="+971">United Arab
+                                                                                    Emirates (+971)
+                                                                                </option>
+                                                                                <option value="+44">UK (+44)</option>
+                                                                                <option value="+598">Uruguay (+598)
+                                                                                </option>
+                                                                                <option value="+998">Uzbekistan (+998)
+                                                                                </option>
+                                                                                <option value="+678">Vanuatu (+678)
+                                                                                </option>
+                                                                                <option value="+379">Vatican City
+                                                                                    (+379)
+                                                                                </option>
+                                                                                <option value="+58">Venezuela (+58)
+                                                                                </option>
+                                                                                <option value="+84">Vietnam (+84)
+                                                                                </option>
+                                                                                <option value="+681">Wallis &amp; Futuna
+                                                                                    (+681)
+                                                                                </option>
+                                                                                <option value="+969">Yemen
+                                                                                    (North)(+969)
+                                                                                </option>
+                                                                                <option value="+967">Yemen
+                                                                                    (South)(+967)
+                                                                                </option>
+                                                                                <option value="+260">Zambia (+260)
+                                                                                </option>
+                                                                                <option value="+263">Zimbabwe (+263)
+                                                                                </option>
+                                                                            </select>
+                                                                        </div>
+                                                                        <div class="col form-group col-md-4">
+                                                                            <label>Mobile Number
+                                                                                <span class="required-fields">*</span>
+                                                                            </label>
+                                                                            <input type="text" name="mobile_no"
+                                                                                   id="mobile_no" class="form-control"
+                                                                                   value=""/>
+                                                                            <small class="form-text text-muted"/>
+                                                                            Your Mobile No. is not verified. <a
+                                                                                href="https://onlineadmission.iba.edu.pk/admissions/user_profile#"
+                                                                                id="resend_mobile_code"
+                                                                                class="btn-link">Resend
+                                                                        </a> code.
+                                                                        </div>
+                                                                    </div>
+                                                                    <!---->
+                                                                    <div class="form-row">
+                                                                        <div class="col form-group col-md-4">
+                                                                            <label>Alternate Email</label>
+                                                                            <input type="email" name="alternate_email"
+                                                                                   id="alternate_email"
+                                                                                   class="form-control" value=""/>
+                                                                        </div>
+                                                                        <div class="form-group col-md-4">
+                                                                            <label>Gender
+                                                                                <span class="required-fields">*</span>
+                                                                            </label>
+
+                                                                            <label class="form-check form-check-inline">
+                                                                                <input class="form-check-input"
+                                                                                       type="radio" name="gender"
+                                                                                       value="Male"/>
+                                                                                <span class="form-check-label">Male
+                                                                                </span>
+                                                                            </label>
+                                                                            <label class="form-check form-check-inline">
+                                                                                <input class="form-check-input"
+                                                                                       type="radio" name="gender"
+                                                                                       value="Female"/>
+                                                                                <span class="form-check-label">Female
+                                                                                </span>
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <!---->
+                                                                    <div class="form-row">
+                                                                        <div class="col form-group col-md-4">
+                                                                            <label>Telephone.(Res)</label>
+                                                                            <input type="text" name="telephone_res"
+                                                                                   id="telephone_res"
+                                                                                   class="form-control" value=""/>
+                                                                        </div>
+                                                                        <div class="col form-group col-md-4">
+                                                                            <label>Telephone.(Off)</label>
+                                                                            <input type="text" name="telephone_office"
+                                                                                   id="telephone_office"
+                                                                                   class="form-control" value=""/>
+                                                                        </div>
+                                                                        <div class="col form-group col-md-4">
+                                                                            <label>Date of Birth
+                                                                                <span class="required-fields">*</span>
+                                                                            </label>
+                                                                            <input type="date" name="date_of_birth"
+                                                                                   id="date_of_birth"
+                                                                                   class="form-control" value=""/>
+                                                                        </div>
+                                                                    </div>
+                                                                    <!---->
+                                                                    <div class="form-row">
+                                                                        <div class="col form-group col-md-4">
+                                                                            <label>House #
+                                                                                <span class="required-fields">*</span>
+                                                                            </label>
+                                                                            <input type="text" name="house_no"
+                                                                                   id="house_no" class="form-control"
+                                                                                   value=""/>
+                                                                        </div>
+                                                                        <div class="col form-group col-md-8">
+                                                                            <label>Postal Address<span
+                                                                                    class="required-fields">*
+                                                                            </span>
+                                                                                <button class="btn-small btn-primary"
+                                                                                        id="getLocationBtn"
+                                                                                        onclick="return getLocation();">
+                                                                                    Get My Address
+                                                                                </button>
+                                                                            </label>
+                                                                            <input type="text" name="postal_address"
+                                                                                   id="postal_address"
+                                                                                   class="form-control pac-target-input"
+                                                                                   value=""
+                                                                                   placeholder="Enter a location"
+                                                                                   autocomplete="off"/>
+                                                                        </div>
+                                                                    </div>
+                                                                    <!---->
+                                                                    <div class="form-row">
+                                                                        <div class="col form-group">
+                                                                            <label>Current Residential Address (If
+                                                                                different from postal address)
+                                                                            </label>
+                                                                            <input type="text" name="present_address"
+                                                                                   id="present_address"
+                                                                                   class="form-control" value=""/>
+                                                                        </div>
+                                                                    </div>
+                                                                    <!---->
+                                                                    <div class="form-row">
+                                                                        <div class="col form-group col-md-4">
+                                                                            <label>City
+                                                                                <span class="required-fields">*</span>
+                                                                            </label>
+                                                                            <input type="text" name="city" id="city"
+                                                                                   class="form-control" value=""/>
+                                                                        </div>
+                                                                        <div class="col form-group col-md-4">
+                                                                            <label>State/Province
+                                                                                <span class="required-fields">*</span>
+                                                                            </label>
+                                                                            <input type="text" name="state" id="state"
+                                                                                   class="form-control" value=""/>
+                                                                        </div>
+                                                                        <div class="form-group col-md-4">
+                                                                            <label>Country
+                                                                                <span class="required-fields">*</span>
+                                                                            </label>
+                                                                            <select name="country" class="form-control">
+                                                                                <option value="">--Select--</option>
+                                                                                <option value="1">Andorra</option>
+                                                                                <option value="2">United Arab Emirates
+                                                                                </option>
+                                                                                <option value="3">Afghanistan</option>
+                                                                                <option value="4">Antigua and Barbuda
+                                                                                </option>
+                                                                                <option value="5">Anguilla</option>
+                                                                                <option value="6">Albania</option>
+                                                                                <option value="7">Armenia</option>
+                                                                                <option value="8">Angola</option>
+                                                                                <option value="9">Antarctica</option>
+                                                                                <option value="10">Argentina</option>
+                                                                                <option value="11">American Samoa
+                                                                                </option>
+                                                                                <option value="12">Austria</option>
+                                                                                <option value="13">Australia</option>
+                                                                                <option value="14">Aruba</option>
+                                                                                <option value="15">Åland</option>
+                                                                                <option value="16">Azerbaijan</option>
+                                                                                <option value="17">Bosnia and
+                                                                                    Herzegovina
+                                                                                </option>
+                                                                                <option value="18">Barbados</option>
+                                                                                <option value="19">Bangladesh</option>
+                                                                                <option value="20">Belgium</option>
+                                                                                <option value="21">Burkina Faso</option>
+                                                                                <option value="22">Bulgaria</option>
+                                                                                <option value="23">Bahrain</option>
+                                                                                <option value="24">Burundi</option>
+                                                                                <option value="25">Benin</option>
+                                                                                <option value="26">Saint Barthélemy
+                                                                                </option>
+                                                                                <option value="27">Bermuda</option>
+                                                                                <option value="28">Brunei</option>
+                                                                                <option value="29">Bolivia</option>
+                                                                                <option value="30">Bonaire</option>
+                                                                                <option value="31">Brazil</option>
+                                                                                <option value="32">Bahamas</option>
+                                                                                <option value="33">Bhutan</option>
+                                                                                <option value="34">Bouvet Island
+                                                                                </option>
+                                                                                <option value="35">Botswana</option>
+                                                                                <option value="36">Belarus</option>
+                                                                                <option value="37">Belize</option>
+                                                                                <option value="38">Canada</option>
+                                                                                <option value="39">Cocos [Keeling]
+                                                                                    Islands
+                                                                                </option>
+                                                                                <option value="40">Congo</option>
+                                                                                <option value="41">Central African
+                                                                                    Republic
+                                                                                </option>
+                                                                                <option value="42">Republic of the
+                                                                                    Congo
+                                                                                </option>
+                                                                                <option value="43">Switzerland</option>
+                                                                                <option value="44">Ivory Coast</option>
+                                                                                <option value="45">Cook Islands</option>
+                                                                                <option value="46">Chile</option>
+                                                                                <option value="47">Cameroon</option>
+                                                                                <option value="48">China</option>
+                                                                                <option value="49">Colombia</option>
+                                                                                <option value="50">Costa Rica</option>
+                                                                                <option value="51">Cuba</option>
+                                                                                <option value="52">Cape Verde</option>
+                                                                                <option value="53">Curacao</option>
+                                                                                <option value="54">Christmas Island
+                                                                                </option>
+                                                                                <option value="55">Cyprus</option>
+                                                                                <option value="56">Czechia</option>
+                                                                                <option value="57">Germany</option>
+                                                                                <option value="58">Djibouti</option>
+                                                                                <option value="59">Denmark</option>
+                                                                                <option value="60">Dominica</option>
+                                                                                <option value="61">Dominican Republic
+                                                                                </option>
+                                                                                <option value="62">Algeria</option>
+                                                                                <option value="63">Ecuador</option>
+                                                                                <option value="64">Estonia</option>
+                                                                                <option value="65">Egypt</option>
+                                                                                <option value="66">Western Sahara
+                                                                                </option>
+                                                                                <option value="67">Eritrea</option>
+                                                                                <option value="68">Spain</option>
+                                                                                <option value="69">Ethiopia</option>
+                                                                                <option value="70">Finland</option>
+                                                                                <option value="71">Fiji</option>
+                                                                                <option value="72">Falkland Islands
+                                                                                </option>
+                                                                                <option value="73">Micronesia</option>
+                                                                                <option value="74">Faroe Islands
+                                                                                </option>
+                                                                                <option value="75">France</option>
+                                                                                <option value="76">Gabon</option>
+                                                                                <option value="77">United Kingdom
+                                                                                </option>
+                                                                                <option value="78">Grenada</option>
+                                                                                <option value="79">Georgia</option>
+                                                                                <option value="80">French Guiana
+                                                                                </option>
+                                                                                <option value="81">Guernsey</option>
+                                                                                <option value="82">Ghana</option>
+                                                                                <option value="83">Gibraltar</option>
+                                                                                <option value="84">Greenland</option>
+                                                                                <option value="85">Gambia</option>
+                                                                                <option value="86">Guinea</option>
+                                                                                <option value="87">Guadeloupe</option>
+                                                                                <option value="88">Equatorial Guinea
+                                                                                </option>
+                                                                                <option value="89">Greece</option>
+                                                                                <option value="90">South Georgia and the
+                                                                                    South Sandwich Islands
+                                                                                </option>
+                                                                                <option value="91">Guatemala</option>
+                                                                                <option value="92">Guam</option>
+                                                                                <option value="93">Guinea-Bissau
+                                                                                </option>
+                                                                                <option value="94">Guyana</option>
+                                                                                <option value="95">Hong Kong</option>
+                                                                                <option value="96">Heard Island and
+                                                                                    McDonald Islands
+                                                                                </option>
+                                                                                <option value="97">Honduras</option>
+                                                                                <option value="98">Croatia</option>
+                                                                                <option value="99">Haiti</option>
+                                                                                <option value="100">Hungary</option>
+                                                                                <option value="101">Indonesia</option>
+                                                                                <option value="102">Ireland</option>
+                                                                                <option value="103">Israel</option>
+                                                                                <option value="104">Isle of Man</option>
+                                                                                <option value="105">India</option>
+                                                                                <option value="106">British Indian Ocean
+                                                                                    Territory
+                                                                                </option>
+                                                                                <option value="107">Iraq</option>
+                                                                                <option value="108">Iran</option>
+                                                                                <option value="109">Iceland</option>
+                                                                                <option value="110">Italy</option>
+                                                                                <option value="111">Jersey</option>
+                                                                                <option value="112">Jamaica</option>
+                                                                                <option value="113">Jordan</option>
+                                                                                <option value="114">Japan</option>
+                                                                                <option value="115">Kenya</option>
+                                                                                <option value="116">Kyrgyzstan</option>
+                                                                                <option value="117">Cambodia</option>
+                                                                                <option value="118">Kiribati</option>
+                                                                                <option value="119">Comoros</option>
+                                                                                <option value="120">Saint Kitts and
+                                                                                    Nevis
+                                                                                </option>
+                                                                                <option value="121">North Korea</option>
+                                                                                <option value="122">South Korea</option>
+                                                                                <option value="123">Kuwait</option>
+                                                                                <option value="124">Cayman Islands
+                                                                                </option>
+                                                                                <option value="125">Kazakhstan</option>
+                                                                                <option value="126">Laos</option>
+                                                                                <option value="127">Lebanon</option>
+                                                                                <option value="128">Saint Lucia</option>
+                                                                                <option value="129">Liechtenstein
+                                                                                </option>
+                                                                                <option value="130">Sri Lanka</option>
+                                                                                <option value="131">Liberia</option>
+                                                                                <option value="132">Lesotho</option>
+                                                                                <option value="133">Lithuania</option>
+                                                                                <option value="134">Luxembourg</option>
+                                                                                <option value="135">Latvia</option>
+                                                                                <option value="136">Libya</option>
+                                                                                <option value="137">Morocco</option>
+                                                                                <option value="138">Monaco</option>
+                                                                                <option value="139">Moldova</option>
+                                                                                <option value="140">Montenegro</option>
+                                                                                <option value="141">Saint Martin
+                                                                                </option>
+                                                                                <option value="142">Madagascar</option>
+                                                                                <option value="143">Marshall Islands
+                                                                                </option>
+                                                                                <option value="144">Macedonia</option>
+                                                                                <option value="145">Mali</option>
+                                                                                <option value="146">Myanmar [Burma]
+                                                                                </option>
+                                                                                <option value="147">Mongolia</option>
+                                                                                <option value="148">Macao</option>
+                                                                                <option value="149">Northern Mariana
+                                                                                    Islands
+                                                                                </option>
+                                                                                <option value="150">Martinique</option>
+                                                                                <option value="151">Mauritania</option>
+                                                                                <option value="152">Montserrat</option>
+                                                                                <option value="153">Malta</option>
+                                                                                <option value="154">Mauritius</option>
+                                                                                <option value="155">Maldives</option>
+                                                                                <option value="156">Malawi</option>
+                                                                                <option value="157">Mexico</option>
+                                                                                <option value="158">Malaysia</option>
+                                                                                <option value="159">Mozambique</option>
+                                                                                <option value="160">Namibia</option>
+                                                                                <option value="161">New Caledonia
+                                                                                </option>
+                                                                                <option value="162">Niger</option>
+                                                                                <option value="163">Norfolk Island
+                                                                                </option>
+                                                                                <option value="164">Nigeria</option>
+                                                                                <option value="165">Nicaragua</option>
+                                                                                <option value="166">Netherlands</option>
+                                                                                <option value="167">Norway</option>
+                                                                                <option value="168">Nepal</option>
+                                                                                <option value="169">Nauru</option>
+                                                                                <option value="170">Niue</option>
+                                                                                <option value="171">New Zealand</option>
+                                                                                <option value="172">Oman</option>
+                                                                                <option value="173">Panama</option>
+                                                                                <option value="174">Peru</option>
+                                                                                <option value="175">French Polynesia
+                                                                                </option>
+                                                                                <option value="176">Papua New Guinea
+                                                                                </option>
+                                                                                <option value="177">Philippines</option>
+                                                                                <option value="178" selected="selected">
+                                                                                    Pakistan
+                                                                                </option>
+                                                                                <option value="179">Poland</option>
+                                                                                <option value="180">Saint Pierre and
+                                                                                    Miquelon
+                                                                                </option>
+                                                                                <option value="181">Pitcairn Islands
+                                                                                </option>
+                                                                                <option value="182">Puerto Rico</option>
+                                                                                <option value="183">Palestine</option>
+                                                                                <option value="184">Portugal</option>
+                                                                                <option value="185">Palau</option>
+                                                                                <option value="186">Paraguay</option>
+                                                                                <option value="187">Qatar</option>
+                                                                                <option value="188">Réunion</option>
+                                                                                <option value="189">Romania</option>
+                                                                                <option value="190">Serbia</option>
+                                                                                <option value="191">Russia</option>
+                                                                                <option value="192">Rwanda</option>
+                                                                                <option value="193">Saudi Arabia
+                                                                                </option>
+                                                                                <option value="194">Solomon Islands
+                                                                                </option>
+                                                                                <option value="195">Seychelles</option>
+                                                                                <option value="196">Sudan</option>
+                                                                                <option value="197">Sweden</option>
+                                                                                <option value="198">Singapore</option>
+                                                                                <option value="199">Saint Helena
+                                                                                </option>
+                                                                                <option value="200">Slovenia</option>
+                                                                                <option value="201">Svalbard and Jan
+                                                                                    Mayen
+                                                                                </option>
+                                                                                <option value="202">Slovakia</option>
+                                                                                <option value="203">Sierra Leone
+                                                                                </option>
+                                                                                <option value="204">San Marino</option>
+                                                                                <option value="205">Senegal</option>
+                                                                                <option value="206">Somalia</option>
+                                                                                <option value="207">Suriname</option>
+                                                                                <option value="208">South Sudan</option>
+                                                                                <option value="209">São Tomé and
+                                                                                    Príncipe
+                                                                                </option>
+                                                                                <option value="210">El Salvador</option>
+                                                                                <option value="211">Sint Maarten
+                                                                                </option>
+                                                                                <option value="212">Syria</option>
+                                                                                <option value="213">Swaziland</option>
+                                                                                <option value="214">Turks and Caicos
+                                                                                    Islands
+                                                                                </option>
+                                                                                <option value="215">Chad</option>
+                                                                                <option value="216">French Southern
+                                                                                    Territories
+                                                                                </option>
+                                                                                <option value="217">Togo</option>
+                                                                                <option value="218">Thailand</option>
+                                                                                <option value="219">Tajikistan</option>
+                                                                                <option value="220">Tokelau</option>
+                                                                                <option value="221">East Timor</option>
+                                                                                <option value="222">Turkmenistan
+                                                                                </option>
+                                                                                <option value="223">Tunisia</option>
+                                                                                <option value="224">Tonga</option>
+                                                                                <option value="225">Turkey</option>
+                                                                                <option value="226">Trinidad and
+                                                                                    Tobago
+                                                                                </option>
+                                                                                <option value="227">Tuvalu</option>
+                                                                                <option value="228">Taiwan</option>
+                                                                                <option value="229">Tanzania</option>
+                                                                                <option value="230">Ukraine</option>
+                                                                                <option value="231">Uganda</option>
+                                                                                <option value="232">U.S. Minor Outlying
+                                                                                    Islands
+                                                                                </option>
+                                                                                <option value="233">United States
+                                                                                </option>
+                                                                                <option value="234">Uruguay</option>
+                                                                                <option value="235">Uzbekistan</option>
+                                                                                <option value="236">Vatican City
+                                                                                </option>
+                                                                                <option value="237">Saint Vincent and
+                                                                                    the Grenadines
+                                                                                </option>
+                                                                                <option value="238">Venezuela</option>
+                                                                                <option value="239">British Virgin
+                                                                                    Islands
+                                                                                </option>
+                                                                                <option value="240">U.S. Virgin
+                                                                                    Islands
+                                                                                </option>
+                                                                                <option value="241">Vietnam</option>
+                                                                                <option value="242">Vanuatu</option>
+                                                                                <option value="243">Wallis and Futuna
+                                                                                </option>
+                                                                                <option value="244">Samoa</option>
+                                                                                <option value="245">Kosovo</option>
+                                                                                <option value="246">Yemen</option>
+                                                                                <option value="247">Mayotte</option>
+                                                                                <option value="248">South Africa
+                                                                                </option>
+                                                                                <option value="249">Zambia</option>
+                                                                                <option value="250">Zimbabwe</option>
+                                                                            </select>
+                                                                        </div>
+                                                                    </div>
+                                                                    <!---->
+                                                                    <div class="form-row">
+                                                                        <div class="col form-group col-md-4">
+                                                                            <label>Father's First Name
+                                                                                <span class="required-fields">*</span>
+                                                                            </label>
+                                                                            <input type="text" name="fathers_first_name"
+                                                                                   id="fathers_first_name"
+                                                                                   class="form-control" value=""/>
+                                                                            <small class="form-text text-muted">Same as
+                                                                                CNIC/B-Form
+                                                                            </small>
+                                                                        </div>
+                                                                        <div class="col form-group col-md-4">
+                                                                            <label>Father's Last Name
+                                                                                <span class="required-fields">*</span>
+                                                                            </label>
+                                                                            <input type="text" name="fathers_last_name"
+                                                                                   id="fathers_last_name"
+                                                                                   class="form-control" value=""/>
+                                                                            <small class="form-text text-muted">Same as
+                                                                                CNIC/B-Form
+                                                                            </small>
+                                                                        </div>
+                                                                        <div class="col form-group col-md-4">
+                                                                            <label>Father's CNIC
+                                                                                <span class="required-fields">*</span>
+                                                                            </label>
+                                                                            <input type="text" name="fathers_cnic"
+                                                                                   id="fathers_cnic"
+                                                                                   class="form-control" value=""
+                                                                                   placeholder="_____-_______-_"
+                                                                                   maxlength="15"/>
+                                                                        </div>
+                                                                    </div>
+                                                                    <!---->
+                                                                    <div class="form-row">
+                                                                        <div class="col form-group col-md-4">
+                                                                            <label>Father's NTN No (If Any)</label>
+                                                                            <input type="text" name="fathers_ntn_no"
+                                                                                   id="fathers_ntn_no"
+                                                                                   class="form-control" value=""/>
+                                                                        </div>
+                                                                        <div class="col form-group col-md-4">
+                                                                            <label>Candidate Marital Status
+                                                                                <span class="required-fields">*</span>
+                                                                            </label>
+                                                                            <select name="marital_status"
+                                                                                    class="form-control"
+                                                                                    id="marital_status">
+                                                                                <option value="" selected="selected">
+                                                                                    --Select--
+                                                                                </option>
+                                                                                <option value="Single">Single</option>
+                                                                                <option value="Married">Married</option>
+                                                                                <option value="Widow">Widow</option>
+                                                                                <option value="Divorced">Divorced
+                                                                                </option>
+                                                                            </select>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="form-row" id="spouse_info_box"
+                                                                         style="display:none;">
+                                                                        <div class="col form-group col-md-4">
+                                                                            <label>Spouse's First Name
+                                                                                <span class="required-fields">*</span>
+                                                                            </label>
+                                                                            <input type="text" name="spouse_first_name"
+                                                                                   id="spouse_first_name"
+                                                                                   class="form-control" value=""/>
+                                                                        </div>
+                                                                        <div class="col form-group col-md-4">
+                                                                            <label>Spouse's Last Name
+                                                                                <span class="required-fields">*</span>
+                                                                            </label>
+                                                                            <input type="text" name="spouse_last_name"
+                                                                                   id="spouse_last_name"
+                                                                                   class="form-control" value=""/>
+                                                                        </div>
+                                                                        <div class="col form-group col-md-4">
+                                                                            <label>Spouse's CNIC</label>
+                                                                            <input type="text" name="spouse_cnic"
+                                                                                   id="spouse_cnic" class="form-control"
+                                                                                   value=""
+                                                                                   placeholder="_____-_______-_"
+                                                                                   maxlength="15"/>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="form-row">
+                                                                        <div class="col form-group col-md-4">
+                                                                            <label>Mother's First Name
+                                                                                <span class="required-fields">*</span>
+                                                                            </label>
+                                                                            <input type="text" name="mothers_first_name"
+                                                                                   id="mothers_first_name"
+                                                                                   class="form-control" value=""/>
+                                                                        </div>
+                                                                        <div class="col form-group col-md-4">
+                                                                            <label>Mother's Last Name
+                                                                                <span class="required-fields">*</span>
+                                                                            </label>
+                                                                            <input type="text" name="mothers_last_name"
+                                                                                   id="mothers_last_name"
+                                                                                   class="form-control" value=""/>
+                                                                        </div>
+                                                                        <div class="col form-group col-md-4">
+                                                                            <label>Mother's CNIC</label>
+                                                                            <input type="text" name="mothers_cnic"
+                                                                                   id="mothers_cnic"
+                                                                                   class="form-control" value=""
+                                                                                   placeholder="_____-_______-_"
+                                                                                   maxlength="15"/>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="form-row">
+                                                                        <div class="form-group col-md-4">
+                                                                            <label>Have you studied / studying at the
+                                                                                IBA?
+                                                                                <span class="required-fields">*</span>
+                                                                            </label>
+
+                                                                            <label class="form-check form-check-inline">
+                                                                                <input class="form-check-input"
+                                                                                       type="radio"
+                                                                                       name="studied_before" value="1"/>
+                                                                                <span class="form-check-label">Yes
+                                                                                </span>
+                                                                            </label>
+                                                                            <label class="form-check form-check-inline">
+                                                                                <input class="form-check-input"
+                                                                                       type="radio"
+                                                                                       name="studied_before" value="0"
+                                                                                       checked=""/>
+                                                                                <span class="form-check-label">No</span>
+                                                                            </label>
+                                                                        </div>
+                                                                        <div class="col form-group col-md-4"
+                                                                             style="display:none;">
+                                                                            <label>ERP ID
+                                                                                <span class="required-fields">*</span>
+                                                                            </label>
+                                                                            <input type="text" name="erp_id" id="erp_id"
+                                                                                   class="form-control" value=""/>
+                                                                        </div>
+                                                                        <div class="col form-group col-md-4">
+                                                                            <label>Domicile
+                                                                                <span class="required-fields">*</span>
+                                                                            </label>
+                                                                            <select name="domicile"
+                                                                                    class="form-control">
+                                                                                <option value="" selected="selected">
+                                                                                    --Select--
+                                                                                </option>
+                                                                                <option value="Sindh">Sindh</option>
+                                                                                <option value="Punjab">Punjab</option>
+                                                                                <option value="Balochistan">
+                                                                                    Balochistan
+                                                                                </option>
+                                                                                <option value="Islamabad Capital Territory">
+                                                                                    Islamabad Capital Territory
+                                                                                </option>
+                                                                                <option value="Khyber Pakhtunkhwa">
+                                                                                    Khyber Pakhtunkhwa
+                                                                                </option>
+                                                                                <option value="Gilgit-Baltistan">
+                                                                                    Gilgit-Baltistan
+                                                                                </option>
+                                                                                <option value="Not Applicable">Not
+                                                                                    Applicable
+                                                                                </option>
+                                                                            </select>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="form-row">
+                                                                        <div class="col form-group col-md-4">
+                                                                            <label>Do you have any disability?
+                                                                                <span class="required-fields">*</span>
+                                                                            </label>
+                                                                            <select name="is_disable"
+                                                                                    class="form-control"
+                                                                                    id="is_disable">
+                                                                                <option value="" selected="selected">
+                                                                                    --Select--
+                                                                                </option>
+                                                                                <option value="1">Yes</option>
+                                                                                <option value="0">No</option>
+                                                                            </select>
+                                                                        </div>
+                                                                        <div class="col form-group col-md-4"
+                                                                             id="disability_opt_box"
+                                                                             style="display:none;">
+                                                                            <label>Disability
+                                                                                <span class="required-fields">*</span>
+                                                                            </label>
+                                                                            <datalist id="disability_list_opt">
+                                                                                <option>Physical Disability</option>
+                                                                                <option>Vision Impairment</option>
+                                                                                <option>Impaired Hearing</option>
+                                                                            </datalist>
+                                                                            <input type="text" name="disability"
+                                                                                   value="" id="disability"
+                                                                                   list="disability_list_opt"
+                                                                                   class="form-control"/>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="form-row">
+                                                                        <div class="col form-group col-md-12">
+                                                                            <label>Please list any further information
+                                                                            </label>
+                                                                            <textarea name="more_info" id="more_info"
+                                                                                      class="form-control"
+                                                                                      rows="3"/>
+                                                                        </div>
+                                                                    </div>
+                                                                </form>
+                                                            </article>
+                                                            <script src="./Candidate Profile – Online Admission System, IBA Karachi_files/js(1)" defer=""/>
+                                                            <script type="text/javascript">
+                                                                $(document).ready(function() {
+                                                                $('input[name="cnic_no"]').mask("00000-0000000-0",
+                                                                {placeholder: "_____-_______-_"});
+                                                                $('input[name="fathers_cnic"]').mask("00000-0000000-0",
+                                                                {placeholder: "_____-_______-_"});
+                                                                $('input[name="spouse_cnic"]').mask("00000-0000000-0",
+                                                                {placeholder: "_____-_______-_"});
+                                                                $('input[name="mothers_cnic"]').mask("00000-0000000-0",
+                                                                {placeholder: "_____-_______-_"});
+                                                                /**/
+                                                                });
+
+                                                                /**/
+                                                                function getLocation(){
+                                                                if(navigator.geolocation){
+                                                                navigator.geolocation.getCurrentPosition(savePosition,
+                                                                positionError, {timeout:10000});
+                                                                }else{
+
+                                                                }
+                                                                return false;
+                                                                }
+
+                                                                /**/
+                                                                function positionError(error){
+                                                                var errorCode = error.code;
+                                                                var message = error.message;
+                                                                alert(message);
+                                                                }
+
+                                                                /**/
+                                                                function savePosition(position){
+                                                                $.post("ajax", {lat: position.coords.latitude, lng:
+                                                                position.coords.longitude,action:'getUserGoogleLocation'},function(result){
+                                                                if(result != ""){
+                                                                $("#postal_address").val(result.address);
+                                                                $("#city").val(result.city_name);
+                                                                $("#state").val(result.state_name);
+                                                                $('#country').text(result.country_name);
+                                                                }
+                                                                },"json");
+                                                                }
+
+                                                                /**/
+                                                                function initAutocomplete() {
+                                                                if($("#postal_address").length){
+                                                                autocomplete = new google.maps.places.Autocomplete(
+                                                                (document.getElementById('postal_address')),{fields:
+                                                                ["address_components", "geometry"], types:
+                                                                ['establishment']});
+                                                                autocomplete.addListener('place_changed',
+                                                                fillInAddress);
+                                                                }
+                                                                }
+
+                                                                /**/
+                                                                function fillInAddress() {
+                                                                var place = autocomplete.getPlace();
+                                                                for (var component of place.address_components) {
+                                                                var addressType = component.types[0];
+                                                                if (addressType == "locality" || addressType ==
+                                                                "postal_town") {
+                                                                const val = component[componentForm[addressType]];
+                                                                document.getElementById("city").value = val;
+                                                                }
+                                                                if (addressType == "administrative_area_level_1") {
+                                                                const val = component[componentForm[addressType]];
+                                                                document.getElementById("state").value = val;
+                                                                }
+                                                                if (addressType == "country") {
+                                                                const val = component[componentForm[addressType]];
+                                                                alert(val);
+                                                                document.getElementByName("country").value = val;
+                                                                }
+                                                                }
+                                                                }
+                                                            </script>
+                                                            <script type="text/javascript">
+                                                                $("select[id^='program_priority_no_']").change(function()
+                                                                {
+                                                                var choice_object = $(this), selections = [];
+                                                                $("select[id^='program_priority_no_']
+                                                                option:selected").each(function(){
+                                                                if($(this).val())
+                                                                selections.push($(this).val());
+                                                                });
+                                                                //
+                                                                $("select[id^='program_priority_no_']
+                                                                option").each(function() {
+                                                                $(this).attr('disabled',
+                                                                $.inArray($(this).val(),selections) > -1 &&
+                                                                !$(this).is(":selected"));
+                                                                });
+                                                                });
+                                                            </script>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane" role="tabpanel" id="step-2" style="display: none;"></div>
+                                            <div class="tab-pane" role="tabpanel" id="step-3" style="display: none;"></div>
+                                            <div class="tab-pane" role="tabpanel" id="step-4" style="display: none;"></div>
+                                            <div class="tab-pane" role="tabpanel" id="step-5" style="display: none;"></div>
+                                            <div class="tab-pane" role="tabpanel" id="step-6" style="display: none;"></div>
+                                        </div>
+                                        <div class="toolbar toolbar-bottom" role="toolbar" style="text-align: right;">
+                                            <button class="btn sw-btn-prev disabled" type="button">Previous</button>
+                                            <button class="btn sw-btn-next" type="button">Save &amp; Next</button>
+                                            <button class="btn btn-info sw-btn-finish" style="display: none;">Submit
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!---->
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <article class="bg-secondary mb-3" style="background-color: #A92C32!important;">
+            <div class="card-body text-center" style="padding:0px;">
+                <h3 class="text-white mt-3" style="padding-bottom: 0px;margin-bottom: 0px; padding-top:5px;">Admissions
+                    Department
+                </h3>
+                <p class="h5 text-white" style="padding-bottom: 0px;margin-bottom: 0px;">Institute of Business
+                    Administration, Karachi
+                </p>
+                <p class="text-white" style="padding-bottom: 0px;margin-bottom: 0px;">For admissions queries please
+                    contact us at 92-21-38104701 Ext: 2324/2376, Email: admission@iba.edu.pk
+                </p>
+                <p class="text-white" style="padding-bottom: 5px;margin-bottom: 0px;">If you are facing any difficulty
+                    in the form, drop an email at aasoomro@iba.edu.pk for technical assistance.
+                </p>
+            </div>
+        </article>
+        <script type="text/javascript">
+        </script>
+        <div class="pac-container pac-logo hdpi"
+             style="display: none; width: 684px; position: absolute; left: 746px; top: 1283px;"></div>
+    </body>
+</html>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <template id="login_page">
+
+        <!-- saved from url=(0051)https://onlineadmission.iba.edu.pk/admissions/login -->
+        <head>
+            <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+
+            <meta name="robots" content="noindex, nofollow"/>
+            <link rel="shortcut icon" type="image/x-icon"
+                  href="https://onlineadmission.iba.edu.pk/assets/oas-frontend/images/favicon.ico"/>
+            <title>Login – Online Admission System, IBA Karachi</title>
+            <!-- Global site tag (gtag.js) - Google Analytics -->
+            <script type="text/javascript" async=""
+                    src="./Login – Online Admission System, IBA Karachi_files/analytics.js"/>
+            <script async="" src="./Login – Online Admission System, IBA Karachi_files/js"/>
+            <script>
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+
+                gtag('config', 'UA-139852632-1');
+            </script>
+            <meta name="viewport" content="width=device-width, initial-scale=1"/>
+            <link href="/IBA_LOGIN_SYSTEM/static/css/bootstrap.min.css" rel="stylesheet"
+                  id="bootstrap-css"/>
+            <link href="https://onlineadmission.iba.edu.pk/admissions/login" rel="stylesheet" type="text/css"/>
+            <link href="https://onlineadmission.iba.edu.pk/admissions/login" rel="stylesheet" type="text/css"/>
+
+            <link type="text/css" href="/IBA_LOGIN_SYSTEM/static/css/style.css" rel="stylesheet" id="appl-css"/>
+            <script src="/IBA_LOGIN_SYSTEM/static/js/jquery.min.js" crossorigin="anonymous"/>
+            <script src="/IBA_LOGIN_SYSTEM/static/js/popper.min.js" crossorigin="anonymous"/>
+            <script src="/IBA_LOGIN_SYSTEM/static/js/bootstrap.min.js"
+                    crossorigin="anonymous"/>
+            <script type="text/javascript"
+                    src="/IBA_LOGIN_SYSTEM/static/js/jquery.smartWizard.min.js"/>
+            <script src="/IBA_LOGIN_SYSTEM/static/js/jquery.mask.js" crossorigin="anonymous"/>
+            <script src="/IBA_LOGIN_SYSTEM/static/js/jquery.validate.min.js"/>
+            <script src="/IBA_LOGIN_SYSTEM/static/js/additional-methods.min.js"/>
+            <script src="/IBA_LOGIN_SYSTEM/static/js/bootbox.min.js"/>
+            <script src="/IBA_LOGIN_SYSTEM/static/js/autosize.min.js"/>
+            <script type="text/javascript">
+                if (typeof defaultFormStepSelected === 'undefined'){
+                var defaultFormStepSelected = 0;
+                }
+            </script>
+            <script src="/IBA_LOGIN_SYSTEM/static/js/jquery.dataTables.min.js"/>
+            <script src="/IBA_LOGIN_SYSTEM/static/js/dataTables.bootstrap4.min.js"/>
+            <script src="/IBA_LOGIN_SYSTEM/static/js/script1.0.js" crossorigin="anonymous"/>
+        </head>
+        <body>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <a class="navbar-brand" href="https://onlineadmission.iba.edu.pk/admissions/login#">
+                            <img src="/IBA_LOGIN_SYSTEM/static/description/ibalogo.jpg"/>
+                            <!-- <img src="/docs/4.1/assets/brand/bootstrap-solid.svg" width="30" height="30" alt=""> -->
+                        </a>
+                    </div>
+                    <div class="col-md-6">
+                        <img class="mr-5" style="float:right; padding-top:20px;"
+                             src="/IBA_LOGIN_SYSTEM/static/description/online-admissions.png"/>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-md-12">
+                        <div class="card">
+                            <header class="card-header">
+                                <a href="https://onlineadmission.iba.edu.pk/admissions/register"
+                                   class="float-right btn btn-outline-primary mt-1">Register
+                                </a>
+                                <h4 class="card-title mt-2">Login</h4>
+                            </header>
+                            <article class="card-body">
+                                <form action="/test/path" method="POST" data-success_page="/thanks" class="s_website_form form-horizontal container-fluid mt32">
+                                    <div class="form-group">
+                                        <label>Email Address
+                                        </label>
+                                        <input type="text" name="login" id="login" class="form-control" placeholder=""/>
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Password
+                                            <span class="required-fields">*</span>
+                                        </label>
+                                        <input type="password" name="password" id="password" class="form-control"
+                                               placeholder=""/>
+                                    </div>
+                                    <div class="form-group">
+                                        <button type="submit" class="btn btn-primary btn-block">Login</button>
+                                    </div>
+
+                                </form>
+                            </article>
+                            <div class="border-top card-body text-center">
+                                <a href="https://onlineadmission.iba.edu.pk/admissions/register">New Candidate
+                                    Registration
+                                </a>
+                                |
+                                <a href="https://onlineadmission.iba.edu.pk/admissions/forgot_password">Forgot your
+                                    password
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <article class="bg-secondary mb-3" style="background-color: #A92C32!important;">
+                <div class="card-body text-center" style="padding:0px;">
+                    <h3 class="text-white mt-3" style="padding-bottom: 0px;margin-bottom: 0px; padding-top:5px;">
+                        Admissions Department
+                    </h3>
+                    <p class="h5 text-white" style="padding-bottom: 0px;margin-bottom: 0px;">Institute of Business
+                        Administration, Karachi
+                    </p>
+                    <p class="text-white" style="padding-bottom: 0px;margin-bottom: 0px;">For admissions queries please
+                        contact us at 92-21-38104701 Ext: 2324/2376, Email: admission@iba.edu.pk
+                    </p>
+                    <p class="text-white" style="padding-bottom: 5px;margin-bottom: 0px;">If you are facing any
+                        difficulty in the form, drop an email at aasoomro@iba.edu.pk for technical assistance.
+                    </p>
+                </div>
+            </article>
+            <script type="text/javascript">
+            </script>
+        </body>
+    </template>
+</odoo>
